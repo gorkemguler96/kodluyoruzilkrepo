@@ -1,2 +1,3 @@
-# kodluyoruzilkrepo
-Kodluyoruz Eğitimi kapsamında açtığım ilk repo
+# Kodluyoruz ilk repo
+
+![picsum görseli](https://picsum.photos/200/300)
