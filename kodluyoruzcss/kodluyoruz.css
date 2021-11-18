@@ -1,0 +1,39 @@
+body {
+    text-align: center;
+    background: #A2D2FF;
+}
+a{
+    color:#FEE440
+}
+
+.text-color a{
+    color: #FEE440;
+    font-size:20px;
+}
+.AnaSayfa h2{
+    color: #FF865E;
+    font-size: 35px;
+}
+.Ürünler p{
+    color:#FEF9EF;
+    font-size: 18px;
+}
+.Ürünler li{
+    width: 50px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.Resimler img {
+    width: 250px;
+    height: auto;
+}
+.Resimler h2 {
+    color: #FF865E;
+}
+.Resimler p {
+    color: #FEF9EF;
+}
+.Hakkımızda h2,h3 {
+    color:#FF865E   ;
+    font-weight:bold;
+}
