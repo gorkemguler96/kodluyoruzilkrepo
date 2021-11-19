@@ -17,9 +17,6 @@
 #box input {
    width: 25%;
 }
-.butn {
-    width:placeholder:100%;
-}
 .container2 {
     width: 96%;
     height: 100px;
@@ -50,7 +47,6 @@
     background:rgba(98,179,170,255);
     float: left;
     text-align: center;
-    padding-top: ;
 }
 .kutu3 p{
 margin:0px;
