@@ -1,0 +1,15 @@
+section {
+    text-align: center;
+    margin-top: 50px;
+}
+section h1{
+    color: red;
+}
+article{
+    text-align: center;
+    font-size: larger;
+}
+article li{
+    margin-left: 550px;
+    width: 50px;
+}
