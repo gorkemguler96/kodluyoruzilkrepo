@@ -1,0 +1,72 @@
+.picture{
+    text-align: center;
+    margin-top: 50px;
+}
+.container {
+    background: rgba(238,238,238,255);
+    text-align: center  ;
+    height: 66px;
+    width: 96%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom:3px;
+}
+.container p{
+    margin: 0;
+}
+#box input {
+   width: 25%;
+}
+.butn {
+    width:placeholder:100%;
+}
+.container2 {
+    width: 96%;
+    height: 100px;
+    margin-right: auto;
+    margin-left: auto;
+
+}
+.kutu1 {
+    width: 39%;
+    height: 100%;
+    background: rgba(125,229,218,255);
+    float: left;
+    text-align: center;
+    margin-right: 2px;
+
+}
+.kutu2 {
+    width: 16%;
+    height: 100%;
+    background: rgba(112,203,194,255);
+    float: left;
+    text-align: center;
+    margin-right: 3px;
+}
+.kutu3{
+    width: 44.65%;
+    height: 100%;
+    background:rgba(98,179,170,255);
+    float: left;
+    text-align: center;
+    padding-top: ;
+}
+.kutu3 p{
+margin:0px;
+}
+.etiketler{
+    margin-top:20px;
+}
+.etiketler2{
+margin-top:14px;
+}
+.etiketler3{
+margin-top: 10px;
+}
+.bordr{
+border-radius: 3px;
+}
+.soonn{
+width: 96%;
+text-align: center;}
