@@ -14,11 +14,11 @@
     <title>Yapılacaklar Listesi</title>
 </head>
 <body>
-<div class="mr-1" style="position: relative">
+<div class="mr-1 mt-3" style="position: relative">
     <div style="position: absolute; top: 0; right: 0">
         <div
-                id="liveToast"
-                class="toast success hide"
+                id="liveToastEkle"
+                class="toast success hide ekl"
                 role="alert"
                 aria-live="assertive"
                 aria-atomic="true"
@@ -38,11 +38,11 @@
         </div>
     </div>
 </div>
-<div class="mr-1" style="position: relative">
+<div class="mr-1 mt-3" style="position: relative">
     <div style="position: absolute; top: 0; right: 0">
         <div
-                id="liveToast"
-                class="toast error hide"
+                id="liveToastCikar"
+                class="toast error hide çkr"
                 role="alert"
                 aria-live="assertive"
                 aria-atomic="true"
@@ -64,24 +64,46 @@
 </div>
 <div class="container">
     <div class="header">
-        <img
-                src="https://cdn.sanity.io/images/9kdepi1d/production/65c832d202a503b15d99e628f4313782f3ef50db-300x62.png"
-                class="mb-1"
-                alt=""
-        />
-        <h2>Yapılacaklar Listesi</h2>
-        <input type="text" id="task" placeholder="Bugün ne yapacaksın?" />
-        <span onclick="newElement()" id="liveToastBtn" class="button"
-        >Ekle</span
-        >
-    </div>
+        <form>
+            <img
+                    src="https://cdn.sanity.io/images/9kdepi1d/production/65c832d202a503b15d99e628f4313782f3ef50db-300x62.png"
+                    class="mb-1"
+                    alt=""
+            />
+            <h2>Yapılacaklar Listesi</h2>
+            <input type="text" id="task" placeholder="Bugün ne yapacaksın?" />
+            <span  onclick="newElement()" id="liveToastBtn" class="button"
+            >Ekle</span
+            >
+        </form>
+        </div>
 
     <ul id="list">
-        <li>3 Litre Su İç</li>
-        <li>Ödevleri Yap</li>
-        <li>En Az 3 Saat Kodlama Yap</li>
-        <li>Yemek Yap</li>
-        <li>50 Sayfa Kitap Oku</li>
+        <li>3 Litre Su İç
+            <button id="carpi" type="button" class="close carpim mt-3 mr-3" aria-label="Close">
+                <span aria-hidden="true">&times;</span>
+            </button>
+        </li>
+        <li>Ödevleri Yap
+            <button type="button" class="close carpim mt-3 mr-3" aria-label="Close">
+                <span aria-hidden="true">&times;</span>
+            </button>
+        </li>
+        <li>En Az 3 Saat Kodlama Yap
+            <button type="button" class="close carpim mt-3 mr-3" aria-label="Close">
+                <span aria-hidden="true">&times;</span>
+            </button>
+        </li>
+        <li>Yemek Yap
+            <button type="button" class="close carpim mt-3 mr-3" aria-label="Close">
+                <span aria-hidden="true">&times;</span>
+            </button>
+        </li>
+        <li>50 Sayfa Kitap Oku
+            <button type="button" class="close carpim mt-3 mr-3" aria-label="Close">
+                <span aria-hidden="true">&times;</span>
+            </button>
+        </li>
     </ul>
     <script
             src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
@@ -93,6 +115,7 @@
             integrity="sha384-Piv4xVNRyMGpqkS2by6br4gNJ7DXjqk09RmUpJ8jgGtD7zP9yug3goQfGII0yAns"
             crossorigin="anonymous"
     ></script>
+    <script src="Todo.js"></script>
 </div>
 </body>
 </html>
