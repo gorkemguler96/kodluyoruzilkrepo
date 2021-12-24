@@ -1,0 +1,26 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+
+
+}
+
+.search {
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 15vh;
+  border-bottom: solid 1px rgb(0,0,0,0.3);
+  /*background-image: url("https://p4.wallpaperbetter.com/wallpaper/894/233/123/macro-photography-of-brown-plant-wallpaper-preview.jpg");*/
+  /*background-size: cover;*/
+  /*background-repeat: no-repeat;*/
+}
+
+input,button {
+  padding: 8px;
+  border-radius: 6px;
+  margin-left: 25px;
+
+}
